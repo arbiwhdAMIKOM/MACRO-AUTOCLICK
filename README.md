@@ -6,11 +6,10 @@
 
 # Izin yang Diperlukan di macOS
 Karena AutoPresser mengontrol keyboard dan mouse, macOS memerlukan izin khusus.
-# Accessibility (wajib)
 Diperlukan agar aplikasi bisa mensimulasikan penekanan tombol dan klik mouse.
 1. Buka System Preferences → Security & Privacy → tab Privacy
 2. Pilih Accessibility di panel kiri
-3. Klik ikon gembok di bawah dan masukkan password
+3. Klik ikon gembok di bawah dan masukkan password (Jika ada)
 4. Klik tombol + dan tambahkan AutoPresser (dari folder dist/)
 5. Centang AutoPresser di daftar
 
@@ -25,12 +24,12 @@ Catatan: Setelah memberikan izin, restart AutoPresser agar izin aktif.
 Requirement:
 Python 3.x dari python.org
 
-Lalu buka cmd; Windows + R "cmd" dan pip install:
+Lalu buka cmd (Windows + R "cmd") dan pip install:
 1. pip install pyautogui pyinstaller pynput
 Build:
 2. pyinstaller build_windows.spec.py
 
-biasanya File .exe hasil build ada di folder dist/.
+biasanya File hasil build ada di folder dist/.
 
 # MACRO-AUTOCLICK
 Aplikasi ringan berbasis Python/Tkinter untuk otomatisasi penekanan tombol keyboard (macro) dan klik mouse otomatis (auto clicker). Tersedia untuk **macOS** dan **Windows**.
