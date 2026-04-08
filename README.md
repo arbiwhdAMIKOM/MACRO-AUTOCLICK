@@ -1,4 +1,4 @@
-# ##INSTALASI (macOS)##
+# ##INSTALASI (macOS)
 1. download Python 3.12 dari python.org - disarankan jangan menggunakan homebrew karena akan memakan waktu lama.
 2. buka terminal dan ketik ini: pip3.12 install pyautogui py2app
 3. lalu build dengan ketik lalu enter ini: python3.12 setup.py py2app
@@ -20,7 +20,7 @@ Jika masih belum bisa run maka lakukan ini:
 Catatan: Setelah memberikan izin, restart AutoPresser agar izin aktif.
 4. Jika menggunakan macOS 13 (Ventura) ke atas, pengaturan ada di System Settings → Privacy & Security.
 
-# INSTALASI (Windows)##
+# INSTALASI (Windows)
 Requirement:
 Python 3.x dari python.org
 
@@ -33,7 +33,7 @@ biasanya File hasil build ada di folder dist/.
 
 # MACRO-AUTOCLICK
 Aplikasi ringan berbasis Python/Tkinter untuk otomatisasi penekanan tombol keyboard (macro) dan klik mouse otomatis (auto clicker). Tersedia untuk **macOS** dan **Windows**.
-## Fitur
+# Fitur
 - Mode **Keyboard Macro**: tekan tombol tertentu secara berkala dengan jeda (delay) dan repetisi yang bisa diatur
 - Mode **Auto Clicker**: klik mouse otomatis dengan interval yang bisa diatur
 - Countdown 5 detik sebelum mulai (memberi waktu pindah ke aplikasi target)
@@ -41,7 +41,7 @@ Aplikasi ringan berbasis Python/Tkinter untuk otomatisasi penekanan tombol keybo
 - Window selalu tampil di atas aplikasi lain agar tombol STOP mudah dijangkau
 - Safety check: interval auto clicker minimal 0.01 detik
 
-## Hotkey
+# Hotkey
 | Tombol | Fungsi |
 |--------|--------|
 | `[`    | START  |
@@ -51,7 +51,7 @@ Tombol `[` dan `]` berada di sebelah kanan huruf **P** pada keyboard.
 > **macOS:** Hotkey hanya aktif saat jendela AutoPresser sedang fokus. Klik dulu jendela AutoPresser sebelum menekan `[` atau `]`.  
 > **Windows:** Hotkey aktif secara global, bisa dipakai bahkan saat jendela lain aktif.
 
-## Cara Pakai
+# Cara Pakai
 1. Buka aplikasi **AutoPresser**
 2. Pilih mode: **Keyboard Macro** atau **Auto Clicker**
 3. Atur parameter sesuai kebutuhan
