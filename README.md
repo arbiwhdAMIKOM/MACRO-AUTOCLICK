@@ -1,3 +1,4 @@
+#Note: SEMUA FILE YANG DIDOWNLOAD DARI GITHUB INI HARUS DISIMPAN DALAM SATU FOLDER
 # INSTALL PYTHON VERSI 3.12
 1. https://www.python.org/downloads/release/python-3120/
 2. scroll kebawah (Down)
@@ -5,8 +6,9 @@
 # INSTALASI (macOS)
 1. download Python 3.12 dari python.org - disarankan jangan menggunakan homebrew karena akan memakan waktu lama.
 2. buka terminal dan ketik ini: pip3.12 install pyautogui py2app
-3. lalu build dengan ketik lalu enter ini: python3.12 setup.py py2app
-4. cari File .app hasil build biasanya ada di folder dist/AutoPresser.app. Double-click langsung bisa jalan.
+3. lalu cd /path/ || Contoh: cd /Users/kuliah/tugas/
+4. lalu build dengan ketik lalu enter ini: python3.12 setup.py py2app
+5. cari File .app hasil build biasanya ada di folder dist/AutoPresser.app. Double-click langsung bisa jalan.
 
 # Izin yang Diperlukan di macOS
 Karena AutoPresser mengontrol keyboard dan mouse, macOS memerlukan izin khusus.
